@@ -5,7 +5,7 @@ from s3_handler import upload_to_s3, delete_from_s3, set_bucket_name
 app = Flask(__name__)
 
 # ✅ Set your bucket name here
-set_bucket_name('ec2-drive-clone-rohan')  # <- yahan apna bucket naam daal
+set_bucket_name('ec2-drive-clone-rohan')  # <- replace your bucket name with mine 
 
 # ✅ Initialize SQLite DB
 init_db()
